@@ -2,14 +2,11 @@
 
 /**
   *main -prints alphabet in lower case
-  *Return: always 0 success
+  *Return: nothing
   */
-int main(void)
+void print_alphabet(void)
 {
-	for(int i ='a';i<='z';i++)
-	{
-		putchar("i");
-	}
-	putchar("\n");
-	return (0);
+	for(char i ='a';i<='z';i++)
+		_putchar(i);
+	_putchar('\n');
 }
