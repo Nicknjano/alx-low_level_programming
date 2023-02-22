@@ -7,21 +7,21 @@
   */
 int print_sign(int n)
 {
-	int sign = 0:
+	int sign = 0;
 
 	if (n > 0)
 	{
-		_putchar(+);
+		_putchar('+');
 		sign = 1;
 	}
 	if (n == 0)
 	{
-		_putchar(0);
+		_putchar('0');
 		sign = 0;
 	}
 	if (n < 0)
 	{
-		_putchar(-);
+		_putchar('-');
 		sign = -1;
 	}
 	return (sign);
