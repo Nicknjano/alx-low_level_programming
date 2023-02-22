@@ -18,7 +18,7 @@ int _isalpha(int c)
 
 	for (i='A';i<='Z';i++)
 	{
-		if (i==C)
+		if (i==c)
 			num = 1;
 	}
 
