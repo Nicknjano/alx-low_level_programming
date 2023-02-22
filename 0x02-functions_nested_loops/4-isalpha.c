@@ -1,0 +1,26 @@
+#include "main.h"
+
+/**
+  *is alpha -checks if c uppercase or lowercase
+  *Return: 1 if c upper or lower, 0 otherwise
+  *
+  */
+int _isalpha(int c)
+{
+	char i;
+	num = 0;
+	
+	for (i='a';i<='z';i++)
+	{
+		if (i==c)
+			num = 1;
+	}
+
+	for (i='A';i<='Z';i++)
+	{
+		if (i==C)
+			num = 1;
+	}
+
+	return (num);
+}
