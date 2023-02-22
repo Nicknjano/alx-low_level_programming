@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+
 /**
   *@n: starting number
   *print_to_98 -prints from  n to 98
