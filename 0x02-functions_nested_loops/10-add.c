@@ -1,16 +1,13 @@
 #include "main.h"
 
 /**
-  *@a: an integer a
-  *@b: an integer b
-  *int add - check main.h
-  *Description: adds a and b 
-  *Return: result of a+b
-  */
+ * add - Check Holberton
+ * @a: An integer a
+ * @b: An integer b
+ * Description: Function that adds two integers and returns the result
+ * Return: Result to add a and b
+ */
 int add(int a, int b)
 {
-	int result;
-
-	result = a + b;
-	return (result);
+	return (a + b);
 }
