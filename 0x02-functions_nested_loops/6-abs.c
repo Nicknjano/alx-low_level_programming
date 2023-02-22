@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
-  *_abs check main.h
+  *_abs compute absolute value of an integer
   *@n: integer value
-  *Description: compute absolute value of an integer
-  *Return: always success
+  *Return: absolute value of int n
   */
 int _abs(int n)
 {
