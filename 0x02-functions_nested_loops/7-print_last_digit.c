@@ -2,7 +2,7 @@
 
 /**
   *print_last_digit -check main.h
-  *@n: integer value
+  *@r: integer value
   *Description: prints last digit of a number
   *Return: value of last digit
   */
