@@ -5,7 +5,7 @@
   *@n :an integer variable
   *Description -checks whether n>0,n<0,n==0
   */
-int print_sign(int n);
+int print_sign(int n)
 {
 	int sign = 0:
 
