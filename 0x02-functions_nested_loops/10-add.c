@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
-  *@a: integer variable
-  *@b: integer variable
+  *@a: integer input
+  *@b: integer input
   *int add - check main.h
+  * Description: adds a and b  
   *Return: result of a+b
   */
 int add(int a, int b)
 {
 	int result;
 
-	result = a + b ;
-	_putchar(result + '\n');
+	result = a + b;
 	return (result);
 }
