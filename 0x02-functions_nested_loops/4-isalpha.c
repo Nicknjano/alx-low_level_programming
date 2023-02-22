@@ -21,6 +21,5 @@ int _isalpha(int c)
 		if (i==c)
 			num = 1;
 	}
-
 	return (num);
 }
