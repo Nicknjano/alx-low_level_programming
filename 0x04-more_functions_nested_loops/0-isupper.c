@@ -14,7 +14,10 @@ int _isupper(int c)
 	for (i = 'A'; i <= 'Z'; i++)
 	{
 		if (i == c)
+		{
 			value = 1;
+			break;
+		}
 	}
 	return (value);
 }
